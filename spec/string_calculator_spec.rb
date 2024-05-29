@@ -31,6 +31,12 @@ RSpec.describe StringCalculator do
       it 'returns the sum of the numbers' do
         expect(StringCalculator.add("//;\n1;2")).to eq(3)
       end
+
+      context 'given a custom delimiter as *' do
+        it 'returns the product of the numbers' do
+          expect(StringCalculator.add("//*\n1*2")).to eq(2)
+        end
+      end
     end
 
     context 'given negative numbers' do
