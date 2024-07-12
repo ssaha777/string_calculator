@@ -2,7 +2,7 @@
 
 ## Overview
 
-StringCalculator is a simple Ruby class that has a class method `add` which adds numbers provided as a string supporting custom delimiters, including commas and new lines, but raises exception when negative numbers are present.
+StringCalculator is a simple Ruby class that has a class method `add` which adds numbers provided as a string supporting custom delimiters, including comma and new lines, but raises exception when negative numbers are present.
 
 ## Features
 
